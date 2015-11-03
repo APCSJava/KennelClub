@@ -8,13 +8,14 @@ public class Kennel {
 
 	private Pet[] kennel;
 	
-	public Kennel(int cages){
-		kennel = new Pet[cages];
+	public Kennel(int numCages){
+		kennel = new Pet[numCages];
 	}
 	
-	public void assignPet(Pet p, int cage) {
-		if (kennel[cage]==null) {
-			kennel[cage] = p;
+	public void assignPet(int cageNumber, Pet p) {
+		// check if requested cage is empty
+		if (kennel[cageNumber]==null) {
+			kennel[cageNumber] = p;
 		}
 	}
 	

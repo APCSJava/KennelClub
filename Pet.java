@@ -1,3 +1,4 @@
+
 /**
  * Superclass of household pets.
  * 
