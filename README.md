@@ -18,7 +18,7 @@ Clone the starter code from http://github.com/APCSJava/KennelClub:
 * Compile and run KennelTester (provided, intact)
 * Verify the correct output, fix any errors and share with me
  
- Food for thought: (be prepared to discuss)
+Food for thought: (be prepared to discuss)
  * In the Kennel class, why would it present a problem if we are unable to assign an animal to a cage?  What are some ways we might modify our code to address this issue?
  * Why do you suppose the original question favored an ArrayList over an array for purposes of holding the Pet references?
  * How is polymorphism being demonstrated through inheritance?  Where else have we encountered polymorphism?  How is this similar/different?
