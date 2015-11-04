@@ -2,7 +2,7 @@
  * Holds an array of pets.  The constructor and additional methods have been
  * provided for you.  You need to implement the allSpeak() method ONLY.
  * 
- * @author kentc14
+ * @author kentc14 (based on materials provided by the College Board)
  *
  */
 public class Kennel {
@@ -18,7 +18,7 @@ public class Kennel {
 		if (cages[cageNumber]==null) {
 			cages[cageNumber] = p;
 		}
-		// consider throwing an error if unsuccessful?
+		// Note: consider throwing an error if unsuccessful?
 	}
 	
 	public void allSpeak() {

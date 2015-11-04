@@ -2,7 +2,7 @@
 /**
  * Superclass of household pets.
  * 
- * @author kentc14
+ * @author kentc14 (based on materials provided by the College Board)
  *
  */
 public abstract class Pet {

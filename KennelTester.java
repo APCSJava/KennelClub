@@ -1,26 +1,27 @@
 /**
- * Creates a kennel, populates it with pets and calls allSpeak
+ * Creates a kennel, populates it with pets and invokes allSpeak()
  * 
- * @author kentcollins
+ * @author kentcollins (based on materials provided by the College Board)
  *
  */
 
 public class KennelTester {
 
 	public static void main(String[] args) {
-		Kennel k = new Kennel(5);
-		k.assignPet(0, new Cat("Copperfield"));
-		k.assignPet(1, new Cat("Blaine"));
-		k.assignPet(2, new Cat("Houdini"));
-		k.assignPet(3, new Cat("Ning"));
-		k.assignPet(4, new Cat("Angel"));
-		k.assignPet(5, new Dog("Vesuvius"));
-		k.assignPet(6, new Dog("Etna"));
-		k.assignPet(7, new Dog("Rainier"));
-		k.assignPet(8, new BigDog("Everest"));
-		k.assignPet(9, new BigDog("McKinley"));
+		Kennel myKennel = new Kennel(10);
 		
-		k.allSpeak();
+		myKennel.assignPet(0, new Cat("Copperfield"));
+		myKennel.assignPet(1, new Cat("Blaine"));
+		myKennel.assignPet(2, new Cat("Houdini"));
+		myKennel.assignPet(3, new Cat("Ning"));
+		myKennel.assignPet(4, new Cat("Angel"));
+		myKennel.assignPet(5, new Dog("Vesuvius"));
+		myKennel.assignPet(6, new Dog("Etna"));
+		myKennel.assignPet(7, new Dog("Rainier"));
+		myKennel.assignPet(8, new BigDog("AndreTheGiant"));
+		myKennel.assignPet(9, new BigDog("JavaTheHutt"));
+		
+		myKennel.allSpeak();
 		
 
 	}
