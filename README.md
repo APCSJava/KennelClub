@@ -5,7 +5,7 @@ A project for working with abstract classes, methods, and inheritance (AP CS 200
 Using pencil and paper:
 * Write the class declaration for Cat, including its constructor and methods
 * Write the class declaration for LoudDog, including its constructor and methods.  Note: You ARE NOT REQUIRED to write a class declaration for the Dog class at this time although you SHOULD consider that class when implementing LoudDog.
-* Write an implementation for the allSpeak() method specified in the Kennel class.  Note: The original question collected the pets in an ArrayList, which we have not yet studied; therefore, the pets are here collected in an array of Pet references.  The basic process of iterating through a collection remains consistent.  This is THE ONLY instance I have found where the College Board specifically requested that students print to the console.
+* Write an implementation for the allSpeak() method specified in the Kennel class.  *Note 1: The original question collected the pets in an ArrayList, which we have not yet studied; therefore, the pets are here collected in an array of Pet references.  The basic process of iterating through a collection remains consistent.  *Note 2: This is THE ONLY instance I have found where the College Board specifically requested that students print to the console.
 
 Clone the starter code from http://github.com/APCSJava/KennelClub:
 * Compile the Pet class
