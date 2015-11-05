@@ -18,8 +18,8 @@ public class KennelTester {
 		myKennel.assignPet(5, new Dog("Vesuvius"));
 		myKennel.assignPet(6, new Dog("Etna"));
 		myKennel.assignPet(7, new Dog("Rainier"));
-		myKennel.assignPet(8, new BigDog("AndreTheGiant"));
-		myKennel.assignPet(9, new BigDog("JavaTheHutt"));
+		myKennel.assignPet(8, new LoudDog("AndreTheGiant"));
+		myKennel.assignPet(9, new LoudDog("JavaTheHutt"));
 		
 		myKennel.allSpeak();
 		
