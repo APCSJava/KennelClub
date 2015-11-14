@@ -1,7 +1,7 @@
 /**
- * Creates a kennel, populates it with pets and calls allSpeak
+ * Creates a kennel, populates it with pets and invokes allSpeak()
  * 
- * @author kentcollins
+ * @author kentcollins (based on materials provided by the College Board)
  *
  */
 
