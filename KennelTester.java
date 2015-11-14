@@ -8,7 +8,8 @@
 public class KennelTester {
 
 	public static void main(String[] args) {
-		Kennel k = new Kennel(5);
+		Kennel k = new Kennel(10);
+		/*
 		k.assignPet(0, new Cat("Copperfield"));
 		k.assignPet(1, new Cat("Blaine"));
 		k.assignPet(2, new Cat("Houdini"));
@@ -21,6 +22,7 @@ public class KennelTester {
 		k.assignPet(9, new BigDog("McKinley"));
 		
 		k.allSpeak();
+		*/
 		
 
 	}
